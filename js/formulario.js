@@ -1,16 +1,8 @@
 
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
-function openForm() {
-  document.getElementById("loginPopup").style.display = "block";
-}
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
 
-function closeForm() {
-  document.getElementById("loginPopup").style.display = "none";
-}
-
-window.onclick = function (event) {
-  let modal = document.getElementById('loginPopup');
-  if (event.target == modal) {
-    closeForm();
-  }
-}

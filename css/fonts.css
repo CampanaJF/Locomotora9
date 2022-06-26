@@ -1,0 +1,39 @@
+
+@font-face {
+	font-family: 'montRegular';
+	src: url('../fonts/Mont-ExtraLightDEMO.otf'); 
+
+}
+@font-face {
+	font-family: 'montBold';
+	src: url('../fonts/Mont-HeavyDEMO.otf'); 
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'meriendaRegular';
+	src: url('../fonts/Merienda-Regular.ttf'); 
+
+}
+@font-face {
+	font-family: 'meriendaBold';
+	src: url('../fonts/Merienda-Bold.ttf'); 
+	font-weight: bold;
+}
+
+.test-font1{
+    font-family: 'meriendaBold', cursive;
+}
+
+.test-font2{
+    font-family: 'montBold', cursive;
+}
+
+.test-font3{
+    font-family: 'meriendaRegular', cursive;
+}
+
+.test-font4{
+    font-family: 'montRegular', cursive;
+}
+
+/* font-family: 'meriendaBold', cursive; */

@@ -34,7 +34,7 @@
 
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
+        Iniciar Sesion
     </button>
 
 <!-- Modal -->    
@@ -43,12 +43,13 @@
         <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
            
-            <div class="modal-body">
+            <div class="py-5 modal-body">
 
-                <form action="/">
+                
                     <h3 class="text-center">¡Que Bueno Verte!</h3>
+                    <br>
                     <p class="text-center">Iniciar Sesion Con...</p>
-
+                    
                 
                 <div class="container">
                 <div class="row justify-content-md-center">
@@ -68,20 +69,30 @@
                 </div>
                 </div>
 
-                    <div>
-                      <p>Email</p> 
-                      <input type="text" name="name" placeholder="micorreo@email.com" />
+                <br><br>
 
-                      <p>Contraseña</p>
-                      <input type="password" name="name" placeholder="Contraseña" />
+                <form class="px-3" action="/">
 
+                    <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="correoIn">
                     </div>
-                    <a href=""><p>¿Olvidaste tu Contraseña?</p></a>
-                    <a href=""><p>¿No Estas Registrado?</p></a>
-                    <button type="button" class="btn btn-primary">Login</button>
+
+                    <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="contraIn">
+                    </div>
+                    
+                    <div class="pt-3 d-grid gap-2 col-5 mx-auto">
+                      <button type="submit" class="text-center button-main btn btn-primary"><span>Iniciar Sesion</span></button>
+                    </div>
 
                 </form>
 
+            <div class="pt-5">
+                <a class="text-center vinculos" href=""><p class="vinculos" >¿Olvidaste tu Contraseña?</p></a>
+                <a class="text-center vinculos" href=""><p class="vinculos" >¿No Estas Registrado?</p></a>
+            </div>
             
         </div>
         </div>

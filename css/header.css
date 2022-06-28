@@ -1,0 +1,7 @@
+.headerSize{
+    width: 80%;
+}
+
+.headerIcon:hover{
+    background-color: bisque;
+}

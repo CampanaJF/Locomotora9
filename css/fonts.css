@@ -22,6 +22,7 @@
 
 .test-font2{
     font-family: 'montBold', cursive;
+	size: 40px;
 }
 .test-font4{
     font-family: 'montRegular', cursive;
@@ -38,6 +39,8 @@
 	color: #ff6a00;
 	cursor: pointer;
 }
+
+
 
 /*
 font-family: 'Nunito', sans-serif;

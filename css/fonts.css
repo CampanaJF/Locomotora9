@@ -22,6 +22,7 @@
 
 .test-font2{
     font-family: 'montBold', cursive;
+	size: 40px;
 }
 .test-font4{
     font-family: 'montRegular', cursive;
@@ -35,12 +36,19 @@
 .vinculos:hover{
 	text-decoration: none !important;
 	font-weight: bold;
-	color: inherit;
+	color: #ff6a00;
+	cursor: pointer;
 }
+
+
 
 /*
 font-family: 'Nunito', sans-serif;
 font-family: 'Merienda', cursive;
+
+color:#FDC280;
+color:#FED3A4;
 color:#A9D791;
-	color:#FDC280;
+color:#BCDFA9;
+color:#CBB4F5;
 */

@@ -1,0 +1,31 @@
+
+.logoHeader{
+    height: 80px;
+
+}
+
+.searchbar{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: black;
+    margin-right: -36px;
+}
+
+.lupa{
+    color: gray;
+    height: 24px;
+    width: 24px;
+}
+
+.headerlink{
+	text-decoration: none !important;
+	color: inherit;
+    padding-top: 5%;
+}
+
+.headerlink:hover{
+	text-decoration: none !important;
+	color: #ff6a00;
+	cursor: pointer;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYF</title>
+
+    <!--Import Google Icon Font-->
+    
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/imag.css">
+    <link rel="stylesheet" href="css/header.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+    
+            <div class="py-5 modal-body">
+    
+              <div class=" d-flex justify-content-center">
+                  <img class="logoForm" src="img/vectores/logo 5.png">
+              </div>    
+              <br>
+              <br>
+    
+              
+                  <h3 class="text-center">¡Que Bueno Verte!</h3>
+                  <br>
+                  <p class="text-center">Iniciar Sesion Con...</p>
+                  
+              
+              <div class="container">
+              <div class="row justify-content-md-center">
+    
+                  <div class="col-md-auto">
+                  <a href=""> <img class="media" src="img/vectores/facebook-svgrepo-com.svg" alt="Facebook"> </a>
+                  </div>
+    
+                  <div class="col-md-auto">
+                  <a href=""> <img  class="media" src="img/vectores/google-svgrepo-com.svg" alt="Google"> </a>
+                  </div>
+    
+                  <div class="col-md-auto">
+                  <a href=""> <img class="media" src="img/vectores/twitter-svgrepo-com.svg" alt="Twitter"> </a>
+                  </div>
+    
+              </div>
+              </div>
+    
+              <br><br>
+    
+              <form class="px-3 needs-validation" novalidate action="/">
+    
+                  <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Correo</label>
+                      <input type="email" class="form-control"  placeholder="ejemplo@correo.com" required id="correoIn">
+                      <div class="invalid-feedback">
+                          Ingrese su Direccion de Correo
+                      </div>
+                  </div>
+    
+                  <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control"  placeholder="*******" required id="contraIn">
+                      <div class="invalid-feedback">
+                          Ingrese su Contraseña
+                      </div>
+                  </div>
+                  
+                  <div class="pt-3 d-grid gap-2 col-5 mx-auto">
+                    <button type="submit" class="text-center button-main btn btn-primary"><span>Iniciar Sesion</span></button>
+                  </div>
+    
+              </form>
+    
+          <div class="pt-5">
+              <a class="text-center vinculos" href=""><p class="vinculos" >¿Olvidaste tu Contraseña?</p></a>
+              <a class="text-center vinculos" data-bs-target="#exampleModalToggle2"
+               data-bs-toggle="modal" data-bs-dismiss="modal"><p class="vinculos" >¿No Estas Registrado?</p></a>
+          </div>
+          
+      </div>
+    
+          </div>
+        </div>
+    </div>
+    
+    
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+     aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="py-5 modal-body">
+    
+              <div class=" d-flex justify-content-center">
+                  <img class="logoForm" src="img/vectores/logo 5.png">
+              </div>    
+              <br>
+              <br>
+    
+              <h5 class="text-center">¡Ingresa tus Datos Para Registrarte!</h5>
+              <br>
+    
+              <br>
+    
+          <form class="px-3 needs-validation" action="/" novalidate >
+              <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3 row g-3">
+            
+              <div class="d-flex justify-content-center">
+    
+                  <div class="formm2">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" placeholder="Juan" id="correoIn">
+                  </div>
+    
+                  <div class="formm1">
+                  </div>
+    
+                  <div class="formm2">
+                      <label for="apellido" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" placeholder="Perez" id="correoIn">
+                  </div>
+    
+              </div>
+    
+                  <div>
+                      <label for="correoIn" class=" form-label">Correo*</label>
+                      <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correoIn" required>
+                      <div class="invalid-feedback">
+                          Por Favor Ingrese una Direccion Valida.
+                      </div>
+                  </div>
+    
+                  <div >
+                      <label for="correoIn2" class="form-label">Repita su Correo*</label>
+                      <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correoIn2" required>
+                      <div class="invalid-feedback">
+                          El Correo es Diferente al Ingresado.
+                      </div>
+                  </div>
+    
+                  <div >
+                      <label for="contraIn" class="form-label">Contraseña*</label>
+                      <input type="password" class="form-control" placeholder="*******" id="contraIn"  required>
+                      <div class="form-text">La Contraseña con almenos 12 Caracteres, una Mayuscula y un Numero</div>
+                      <div class="invalid-feedback">
+                          Por Favor Ingrese una Contraseña con almenos 12 Caracteres, una Mayuscula y un Numero.
+                      </div>
+                  </div>
+    
+                  <div>
+                      <label for="contraIn2" class="form-label">Repita su Contraseña*</label>
+                      <input type="password" class="form-control" placeholder="*******" id="contraIn2"  required>
+                      <div class="invalid-feedback">
+                          Las Contraseñas son Diferentes.
+                      </div>
+                      <br>
+                      <div class="form-text">*: Campo Obligatorio</div>
+                  </div>
+    
+              </div>     
+              
+               <div class="pt-3 d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="text-center button-main btn btn-primary"><span>Registrarse</span></button>
+               </div>
+    
+          </form>
+    
+          <div class="pt-5">
+              <a class="text-center vinculos" href=""><p class="vinculos" >¿Ya Estas Registrado?</p></a>
+          </div>
+          
+      </div>
+    
+    
+          </div>
+        </div>
+    </div>
+
+    <header class="">
+
+        <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"> 
+          <img src="img/vectores/logo.png" width="135" height="120" alt="LYF">
+          </a>
+        
+                <div>  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">     
+                <span class="navbar-toggler-icon"></span>    
+                </button>        
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">       
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">       
+                             
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>     
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                             role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+        
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                                   
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>  
+                            
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>   
+        
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>      
+                                       
+                        </ul> 
+                        </li> 
+                                             
+                    </ul>  
+                                             
+                        <form class="d-flex" role="search">  
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">  
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>   
+                    </div>      
+                </div>  
+        </div> 
+        </nav>
+        
+            </header>
+    
+      <a data-bs-toggle="modal" class="vinculos" href="#exampleModalToggle">Ingresar</a>
+    
+ 
+    <script src="js/formulario.js"></script>
+
+  </body>
+
+</html>

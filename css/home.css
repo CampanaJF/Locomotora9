@@ -1,5 +1,58 @@
+.fondoBody{
+    background: rgb(240, 240, 240);
+}
+
 .seccion2{
     background-image: url(../img/vectores/Mancha\ Por\ que.png);
-    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+
+  
+}
+
+
+.fondo1{
+    background-image: url(../img/vectores/Group\ 22.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.fondo2{
+    background-image: url(../img/vectores/path1964.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.fondo3{
+    background-image: url(../img/vectores/path2754.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.seccion3{
+    background-image: url(../img/vectores/path2496.png), url(../img/vectores/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left, right;
+
+  
+}
+
+.seccion4{
+    background-image: url(../img/vectores/path514.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+  
+}
+
+.footerFondo{
+    background:#FED3A4;
 }

@@ -18,17 +18,19 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/cd4c899934.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-
+    <header class="shadow">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/mcdonald-s-15-logo-svgrepo-com.svg" class="d-inline-block ms-5" width="96px" alt="">
-                    LYF</a>
+                    <img src="img/vectores/logoC.png" class="d-inline-block ms-5" width="80px" alt="">
+                    <!-- <strong>LYP</strong> -->
+                </a>
 
                 <div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,45 +40,37 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <ul class="navbar-nav">
+                            <li class="headerlink">
+                                <a class="navbar-brand d-flex justify-content-center" href="#">
+                                    <img src="img/vectores/bucket-svgrepo-com.svg" width="30" height="24">
+                                    <p class="headerlink">Productos</p>
+                                </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="headerlink">
+                                <a class="navbar-brand d-flex justify-content-center" href="#">
+                                    <img src="img/vectores/cart-svgrepo-com.svg" width="30" height="24">
+                                    <p class="headerlink">Carrito</p>
+                                </a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-
-                                </ul>
+                            <li class="headerlink">
+                                <a class="navbar-brand d-flex justify-content-center" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#ingresarModal">
+                                    <img src="img/vectores/login-svgrepo-com.svg" width="30" height="24">
+                                    <p class="headerlink">Ingresar</p>
+                                </a>
                             </li>
 
                         </ul>
+                        </li>
 
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </ul>
+
+                        <form class="pe-5 d-flex justify-content-center">
+                            <input class="searchbar" type="text" placeholder="Buscar...">
+                            <img class="" src="img/vectores/search-svgrepo-com.svg" width="30" height="24">
                         </form>
                     </div>
                 </div>
@@ -97,7 +91,7 @@
                     <div class="col-lg-5 row">
                         <!--descripcion y opciones producto-->
         
-                        <p class="h3">Látex Satinado Interior</p>
+                        <p class="h3 text-merienda">Látex Satinado Interior</p>
         
                         <div class="item item-resumen mb-2">
                             <div> <img src="/img/vectores/Group 97.png" alt="" class="vectores-item"> <span>Color con un leve brillo</span> </div>
@@ -107,38 +101,38 @@
                         
 
 
-                        <div class="item item-colores container row">
-                            <div class="container row colores d-flex justify-content-start col-5">
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
-                                <a href="#" class="col-lg-2 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                        <div class="item item-colores container row my-2">
+                            <div class="container row colores d-flex justify-content-start col-7">
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
+                                <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
                             </div>
                             <p class="text-muted">Color seleccionado: Blue</p>
                         </div>
@@ -184,7 +178,7 @@
                 <div class="row col-lg-12">
                     <div class="container row d-flex justify-content-around my-5">
                         <div class="col-4">
-                            <p class="h4 col-10">Descripción del Producto</p>
+                            <p class="h4 col-10 text-merienda">Descripción del Producto</p>
     
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium at alias, eum commodi quia, autem
                                 cum deserunt impedit perspiciatis numquam nam molestias, ex voluptates. Maiores sapiente libero quia
@@ -200,7 +194,7 @@
 
                 <div class="container row col-lg-12 justify-content-center">
                     <div class="container row d-flex justify-content-center col-10">
-                        <p class="h4">Advertencias</p>
+                        <p class="h4 text-merienda">Advertencias</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum eveniet id, ad fuga dolorum
                             blanditiis soluta hic error aliquid numquam illo, eligendi vero, quis provident amet dolore ea facilis.
                         </p>
@@ -215,29 +209,29 @@
 
     </main>
 
-    <footer>
+    <footer class="footerFondo">
 
         <div class="container mt-5">
             <div class="row d-flex justify-content-around">
                 <div class="col">
-                    <img src="img/mcdonald-s-15-logo-svgrepo-com.svg" alt="LYF" width="96px">
+                    <img src="img/vectores/logo.png" alt="LYF" width="96px" class="m-5">
                 </div>
 
                 <div class="col">
-                    <a href="" class="d-block">Comunidad LYF</a>
-                    <a href="" class="d-block">Nuestros productos</a>
+                    <a href="" class="d-block mt-5 mb-5 text-decoration-none text-black">Comunidad LYF</a>
+                    <a href="" class="d-block mt-5 mb-5 text-decoration-none text-black">Nuestros productos</a>
                 </div>
 
                 <div class="col">
-                    <p>Contactanos por</p>
-                    <p>0800-555-3789</p>
-                    <a href="algo@google.com">contactolyf@gmail.com</a>
+                    <p class="mt-5">Contactanos por</p>
+                    <p class="mt-1 mb-1">0800-555-3789</p>
+                    <a href="algo@google.com" class="text-decoration-none text-black mb-5">contactolyf@gmail.com</a>
                 </div>
 
                 <div class="col">
-                    <div class="d-flex justify-content-around">
-                        <img src="img/pinterest-svgrepo-com.svg" alt="pinterest" width="32px">
-                        <img src="img/instagram-svgrepo-com.svg" alt="instagram" width="32px">
+                    <div class="d-flex justify-content-around m-5">
+                        <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px">
+                        <img src="img/vectores/instagram-svgrepo-com.svg" alt="instagram" width="32px">
                     </div>
                 </div>
             </div>

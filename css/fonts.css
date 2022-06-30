@@ -29,6 +29,14 @@
 	font-family: 'Merienda' !important;
 }
 
+.text-grande{
+	font-size: 1.2em;
+}
+
+.negrita{
+	font-weight: bold !important;
+}
+
 .test-font2{
     font-family: 'montBold', cursive;
 	size: 40px;

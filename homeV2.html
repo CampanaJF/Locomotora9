@@ -20,7 +20,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="img/vectores/iconLyp.ico" />
+
 </head>
 
 <body class="fondoBody">
@@ -58,7 +64,8 @@
                             </li>
 
                             <li class="headerlink">
-                                <a class="navbar-brand d-flex justify-content-center" href="#">
+                                <a class="navbar-brand d-flex justify-content-center" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#ingresarModal">
                                     <img src="img/vectores/login-svgrepo-com.svg" width="30" height="24">
                                     <p class="headerlink">Ingresar</p>
                                 </a>
@@ -96,7 +103,8 @@
 
         <h3 class="text-center m-5">¿Por que las pinturas LYF son ecologicas?</h3>
 
-        <div class="seccion2 d-flex align-items-center"> <!-- esto me rompe el resposive -->
+        <div class="seccion2 d-flex align-items-center">
+            <!-- esto me rompe el resposive -->
             <div class="container">
                 <div class="row">
                     <div class="col-md col-ms-1 col-lg d-flex justify-content-center">
@@ -190,7 +198,8 @@
         <div class="container-fluid row d-flex justify-content-center seccion4">
 
             <div class="col d-flex justify-content-center align-items-center">
-                <h1>Sabemos que te interesa proteger el medio ambiente como a nosotros! <br><br> Tenemos ideas para proponerte!</h1>
+                <h1>Sabemos que te interesa proteger el medio ambiente como a nosotros! <br><br> Tenemos ideas para
+                    proponerte!</h1>
             </div>
 
             <div class="col d-flex">
@@ -235,12 +244,101 @@
 
     </footer>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- INGRESAR Modal -->
+
+    <div class="modal fade" id="ingresarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="py-5 modal-body">
+
+                    <div class=" d-flex justify-content-center">
+                        <img class="logoForm" src="img/vectores/logo 5.png">
+                    </div>
+                    <br>
+                    <br>
+
+
+                    <h3 class="text-center">¡Que Bueno Verte!</h3>
+                    <br>
+                    <p class="text-center">Iniciar Sesion Con...</p>
+
+
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+
+                            <div class="col-md-auto">
+                                <a href=""> <img class="media" src="img/vectores/facebook-svgrepo-com.svg"
+                                        alt="Facebook"> </a>
+                            </div>
+
+                            <div class="col-md-auto">
+                                <a href=""> <img class="media" src="img/vectores/google-svgrepo-com.svg" alt="Google">
+                                </a>
+                            </div>
+
+                            <div class="col-md-auto">
+                                <a href=""> <img class="media" src="img/vectores/twitter-svgrepo-com.svg" alt="Twitter">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <form class="px-3 needs-validation" novalidate action="/">
+
+                        <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo</label>
+                            <input type="email" class="form-control" placeholder="ejemplo@correo.com" required
+                                id="correoIn">
+                            <div class="invalid-feedback">
+                                Ingrese su Direccion de Correo
+                            </div>
+                        </div>
+
+                        <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" placeholder="*******" required id="contraIn">
+                            <div class="invalid-feedback">
+                                Ingrese su Contraseña
+                            </div>
+                        </div>
+
+                        <div class="pt-3 d-grid gap-2 col-5 mx-auto">
+                            <button type="submit" class="text-center button-main btn btn-primary"><span>Iniciar
+                                    Sesion</span></button>
+                        </div>
+
+                    </form>
+
+                    <div class="pt-5">
+                        <a class="text-center vinculos" href="">
+                            <p class="vinculos">¿Olvidaste tu Contraseña?</p>
+                        </a>
+                        <a class="text-center vinculos" href="">
+                            <p class="vinculos">¿No Estas Registrado?</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+        <script src="js/formulario.js"></script>
 
 </body>
 

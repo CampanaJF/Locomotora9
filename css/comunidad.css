@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#textarea{
+  width: 300px;
+  height: 200px;
+}
+
+.imagen{
+    width:250px;
+}
+.boton{
+   width: 150px;
+}
+
+.titulo{
+    font-family: 'Merienda', sans-serif !important;
+	font-size: 40px;
+}
+.resaltado{
+    font-weight: bold;
+}

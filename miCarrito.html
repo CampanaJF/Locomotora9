@@ -25,6 +25,7 @@
         crossorigin="anonymous"></script>
 
     <script src="js/jquery-3.6.0.min.js"></script>
+ 
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/vectores/iconLyp.ico" />
@@ -294,7 +295,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="item1">
                         <th scope="row">
                             <div class="col-md col-ms-1 col-lg d-flex justify-content-center">
                                 <div class="fondo1">
@@ -311,30 +312,85 @@
                         </td>
                         <td>
                             <div class="d-flex flex-column mt-4">
-                                <input type="number" id="input1" min="0" max="100" class="w-50">
+                                <input type="number" id="input1" min="0" max="3" class="w-50">
                             </div>
                         </td>
                         <td>
                             <div class="d-flex flex-nowrap mt-4">
-                                <h5>$</h5><h5 id="precio1">5000</h5>
+                                <h5>$</h5><h5 id="precio1">0</h5>
+                            </div>
+                        </td>
+                        <td>
+                            <div class=" mt-4">
+                                <img src="img/vectores/cancel2.svg" alt="" width="48" id="cancelar1">
                             </div>
                         </td>
                     </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                  
+                    
+                    <tr id="item2">
+                        <th scope="row">
+                            <div class="col-md col-ms-1 col-lg d-flex justify-content-center">
+                                <div class="fondo2">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="img/WhatsApp_Image_2021-11-03_at_23.29 7.png" alt="">
+                                    </div>
+                        </th>
+                        <td>
+                            <div class="d-flex flex-column mt-4">
+                                <h4>Latex Satina Exterior</h4>
+                                <p>color</p>
+                                <p>tamaño</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex flex-column mt-4">
+                                <input type="number" id="input2" min="0" max="3" class="w-50">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex flex-nowrap mt-4">
+                                <h5>$</h5><h5 id="precio2">0</h5>
+                            </div>
+                        </td>
+                        <td>
+                            <div class=" mt-4">
+                                <img src="img/vectores/cancel2.svg" alt="" width="48" id="cancelar2">
+                            </div>
+                        </td>
                     </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
+
+                    <tr class="mt-5">
+                        <th scope="row">
+                       
+                        </th>
+                        <td>
+                            <div class="d-flex flex-column mt-4">
+                                <h4>Metodo de pago</h4>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex flex-column mt-4">
+                                <p>Total:</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex flex-nowrap mt-4">
+                                <h5>$</h5><h5 id="total"></h5>
+                            </div>
+                        </td>
+                       
                     </tr>
+
+                   
                 </tbody>
             </table>
         </div>
 
+
+        <div class="d-flex justify-content-center">
+            <button type="button" class="button-main btn btn-warning m-5"><span>Pagar</span></button>
+        </div>
 
 
 

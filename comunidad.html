@@ -30,58 +30,225 @@
 </head>
 
 <body>
+  <!-- Modal ingresar -->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+     <div class="modal-dialog modal-dialog-centered">
+       <div class="modal-content">
+ 
+         <div class="py-5 modal-body">
+ 
+           <div class=" d-flex justify-content-center">
+               <img class="logoForm" src="img/vectores/logo 5.png">
+           </div>    
+           <br>
+           <br>
+ 
+           
+               <h3 class="text-center">¡Que Bueno Verte!</h3>
+               <br>
+               <p class="text-center">Iniciar Sesion Con...</p>
+               
+           
+           <div class="container">
+           <div class="row justify-content-md-center">
+ 
+               <div class="col-md-auto">
+               <a href=""> <img class="media" src="img/vectores/facebook-svgrepo-com.svg" alt="Facebook"> </a>
+               </div>
+ 
+               <div class="col-md-auto">
+               <a href=""> <img  class="media" src="img/vectores/google-svgrepo-com.svg" alt="Google"> </a>
+               </div>
+ 
+               <div class="col-md-auto">
+               <a href=""> <img class="media" src="img/vectores/twitter-svgrepo-com.svg" alt="Twitter"> </a>
+               </div>
+ 
+           </div>
+           </div>
+ 
+           <br><br>
+ 
+           <form class="px-3 needs-validation" novalidate action="/">
+ 
+               <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                   <label for="exampleInputEmail1" class="form-label">Correo</label>
+                   <input type="email" class="form-control"  placeholder="ejemplo@correo.com" required id="correoIn">
+                   <div class="invalid-feedback">
+                       Ingrese su Direccion de Correo
+                   </div>
+               </div>
+ 
+               <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                   <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                   <input type="password" class="form-control"  placeholder="*******" required id="contraIn">
+                   <div class="invalid-feedback">
+                       Ingrese su Contraseña
+                   </div>
+               </div>
+               
+               <div class="pt-3 d-grid gap-2 col-5 mx-auto">
+                 <button type="submit" class="text-center button-main btn btn-primary"><span>Iniciar Sesion</span></button>
+               </div>
+ 
+           </form>
+ 
+       <div class="pt-5">
+           <a class="text-center vinculos" href=""><p class="vinculos" >¿Olvidaste tu Contraseña?</p></a>
+           <a class="text-center vinculos" data-bs-target="#exampleModalToggle2"
+            data-bs-toggle="modal" data-bs-dismiss="modal"><p class="vinculos" >¿No Estas Registrado?</p></a>
+       </div>
+       
+   </div>
+ 
+       </div>
+     </div>
+  </div>
+ 
+  <!-- Modal registrarse -->
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+     <div class="modal-dialog modal-dialog-centered">
+       <div class="modal-content">
+         <div class="py-5 modal-body">
+ 
+           <div class=" d-flex justify-content-center">
+               <img class="logoForm" src="img/vectores/logo 5.png">
+           </div>    
+           <br>
+           <br>
+ 
+           <h5 class="text-center">¡Ingresa tus Datos Para Registrarte!</h5>
+           <br>
+ 
+           <br>
+ 
+       <form class="px-3 needs-validation" action="/" novalidate >
+           <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3 row g-3">
+         
+           <div class="d-flex justify-content-center">
+ 
+               <div class="formm2">
+                   <label for="nombre" class="form-label">Nombre</label>
+                   <input type="text" class="form-control" placeholder="Juan" id="correoIn">
+               </div>
+ 
+               <div class="formm1">
+               </div>
+ 
+               <div class="formm2">
+                   <label for="apellido" class="form-label">Apellido</label>
+                   <input type="text" class="form-control" placeholder="Perez" id="correoIn">
+               </div>
+ 
+           </div>
+ 
+               <div>
+                   <label for="correoIn" class=" form-label">Correo*</label>
+                   <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correoIn" required>
+                   <div class="invalid-feedback">
+                       Por Favor Ingrese una Direccion Valida.
+                   </div>
+               </div>
+ 
+               <div >
+                   <label for="correoIn2" class="form-label">Repita su Correo*</label>
+                   <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correoIn2" required>
+                   <div class="invalid-feedback">
+                       El Correo es Diferente al Ingresado.
+                   </div>
+               </div>
+ 
+               <div >
+                   <label for="contraIn" class="form-label">Contraseña*</label>
+                   <input type="password" class="form-control" placeholder="*******" id="contraIn"  required>
+                   <div class="form-text">La Contraseña con almenos 12 Caracteres, una Mayuscula y un Numero</div>
+                   <div class="invalid-feedback">
+                       Por Favor Ingrese una Contraseña con almenos 12 Caracteres, una Mayuscula y un Numero.
+                   </div>
+               </div>
+ 
+               <div>
+                   <label for="contraIn2" class="form-label">Repita su Contraseña*</label>
+                   <input type="password" class="form-control" placeholder="*******" id="contraIn2"  required>
+                   <div class="invalid-feedback">
+                       Las Contraseñas son Diferentes.
+                   </div>
+                   <br>
+                   <div class="form-text">*: Campo Obligatorio</div>
+               </div>
+ 
+           </div>     
+           
+            <div class="pt-3 d-grid gap-2 col-6 mx-auto">
+             <button type="submit" class="text-center button-main btn btn-primary"><span>Registrarse</span></button>
+            </div>
+ 
+       </form>
+ 
+       <div class="pt-5">
+           <a class="text-center vinculos" href=""><p class="vinculos" >¿Ya Estas Registrado?</p></a>
+       </div>
+       
+   </div>
+ 
+ 
+       </div>
+     </div>
+  </div>
+
+
   <header class="shadow">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/vectores/logoC.png" class="d-inline-block ms-5" width="80px" alt="">
-          <!-- <strong>LYP</strong> -->
-        </a>
+      <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/vectores/logoC.png" class="d-inline-block ms-5" width="80px" alt="">
+                  <!-- <strong>LYP</strong> -->
+              </a>
 
-        <div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+              <div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="headerlink">
-                <a class="navbar-brand d-flex justify-content-center" href="#">
-                  <img src="img/vectores/bucket-svgrepo-com.svg" width="30" height="24">
-                  <p class="headerlink">Productos</p>
-                </a>
-              </li>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                          <li class="headerlink">
+                              <a class="navbar-brand d-flex justify-content-center" href="productos.html">
+                                  <img src="img/vectores/bucket-svgrepo-com.svg" width="30" height="24">
+                                  <p class="headerlink">Productos</p>
+                              </a>
+                          </li>
 
-              <li class="headerlink">
-                <a class="navbar-brand d-flex justify-content-center" href="miCarrito.html">
-                  <img src="img/vectores/cart-svgrepo-com.svg" width="30" height="24">
-                  <p class="headerlink">Carrito</p>
-                </a>
-              </li>
+                          <li class="headerlink">
+                              <a class="navbar-brand d-flex justify-content-center" href="miCarrito.html">
+                                  <img src="img/vectores/cart-svgrepo-com.svg" width="30" height="24">
+                                  <p class="headerlink">Carrito</p>
+                              </a>
+                          </li>
 
-              <li class="headerlink">
-                <a class="navbar-brand d-flex justify-content-center" href="#" data-bs-toggle="modal"
-                  data-bs-target="#exampleModalToggle">
-                  <img src="img/vectores/login-svgrepo-com.svg" width="30" height="24">
-                  <p class="headerlink">Ingresar</p>
-                </a>
-              </li>
+                          <li class="headerlink">
+                              <a class="navbar-brand d-flex justify-content-center" href="#" data-bs-toggle="modal"
+                                  data-bs-target="#exampleModalToggle">
+                                  <img src="img/vectores/login-svgrepo-com.svg" width="30" height="24">
+                                  <p class="headerlink">Ingresar</p>
+                              </a>
+                          </li>
 
-            </ul>
-            </li>
+                      </ul>
+                      </li>
 
-            </ul>
+                      </ul>
 
             <form class="pe-5 d-flex justify-content-center">
               <input class="searchbar fondoSearch" type="text" placeholder="Buscar...">
               <img class="" src="img/vectores/search-svgrepo-com.svg" width="30" height="24">
             </form>
           </div>
-        </div>
-      </div>
-    </nav>
+      </nav>
 
   </header>
   <main>

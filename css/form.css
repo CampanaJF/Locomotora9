@@ -19,16 +19,18 @@
 }
 
 .button-main{
+  color: #fff !important;
   display: block;
   font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
-  background-color: #ff862f !important;
-  border: 2px solid #FDC280 !important;
+  background-color: #0769B2 !important;
+  border: 2px solid #0a88e8 !important;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
   transition: all .35s;
+ 
 }
 
 .button-main span{
@@ -43,12 +45,12 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff6a00 !important;
+  background: #00AF36 !important;
   transition: all .35s;
 }
 
 .button-main:hover{
-  border: 2px solid #ff6a00 !important;
+  border: 2px solid #00AF36 !important;
   color: #fff !important;
 }
 

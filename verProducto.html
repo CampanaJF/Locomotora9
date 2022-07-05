@@ -13,14 +13,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="css/verProducto.css">
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/imag.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        .material-symbols-sharp {
+          font-variation-settings:
+          'FILL' 1,
+          'wght' 300,
+          'GRAD' 0,
+          'opsz' 48
+        }
+    </style>
+
 </head>
 
 <body>
@@ -194,11 +212,15 @@
 
 
     <header class="shadow">
-        <nav class="navbar fixed-top nav-gradiente navbar-expand-lg">
+        <nav class="navbar fixed-top nav-gradiente scrolling-navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/vectores/logoC.png" class="d-inline-block ms-5" width="80px" alt="">
-                    <!-- <strong>LYP</strong> -->
+                <a class="navbar-brand d-flex" href="index.html">
+                    <img src="img/vectores/WhatsApp_Image_2021-11-08_at_23.29 5.png" class="ms-5" width="80px" alt="">
+                    <div class="d-flex align-items-center">
+                        <h4 class="p-0 m-0 pesoletra">LYF</h4>
+                    </div>
+                 
+                    <!-- <strong>LYF</strong> -->
                 </a>
 
                 <div>
@@ -210,25 +232,33 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
+
+                            <li class="headerlink">
+                                <a class="navbar-brand d-flex justify-content-center" href="comunidad.html">
+                                    <span class="material-symbols-sharp">groups</span>
+                                    <p class="headerlink ms-1">Comunidad</p>
+                                </a>
+                            </li>
+
                             <li class="headerlink">
                                 <a class="navbar-brand d-flex justify-content-center" href="productos.html">
-                                    <img src="img/vectores/bucket-svgrepo-com.svg" width="30" height="24">
-                                    <p class="headerlink">Productos</p>
+                                    <span class="material-symbols-sharp">palette</span>
+                                    <p class="headerlink ms-1">Productos</p>
                                 </a>
                             </li>
 
                             <li class="headerlink">
                                 <a class="navbar-brand d-flex justify-content-center" href="miCarrito.html">
-                                    <img src="img/vectores/cart-svgrepo-com.svg" width="30" height="24">
-                                    <p class="headerlink">Carrito</p>
+                                    <span class="material-symbols-sharp">shopping_cart</span>
+                                    <p class="headerlink ms-1">Carrito</p>
                                 </a>
                             </li>
 
                             <li class="headerlink">
                                 <a class="navbar-brand d-flex justify-content-center" href="#" data-bs-toggle="modal"
                                     data-bs-target="#exampleModalToggle">
-                                    <img src="img/vectores/login-svgrepo-com.svg" width="30" height="24">
-                                    <p class="headerlink">Ingresar</p>
+                                    <span class="material-symbols-sharp">person</span>
+                                    <p class="headerlink ms-1">Ingresar</p>
                                 </a>
                             </li>
 
@@ -237,10 +267,7 @@
 
                         </ul>
 
-                        <form class="pe-5 d-flex justify-content-center">
-                            <input class="searchbar fondoSearch" type="text" placeholder="Buscar...">
-                            <img class="" src="img/vectores/search-svgrepo-com.svg" width="30" height="24">
-                        </form>
+                  
                     </div>
                 </div>
             </div>
@@ -253,8 +280,9 @@
             <div class="row">
 
                 <div class="row col-lg-12">
-                    <div class="col-lg-7 d-flex justify-content-center align-items-center">
+                    <div class="col-lg-7 d-flex justify-content-center align-items-center position-relative">
                         <img src="img/WhatsApp_Image_2021-11-03_at_23.29 7.png" height="60%" alt="">
+                        <img src="img/vectores/path2754.png" alt="" class="background-splat">
                     </div>
         
                     <div class="col-lg-5 row">
@@ -319,13 +347,10 @@
                             </div>
                             <div>
                                 <label for="input-cant">Cantidad</label>
-                                <div id="input-cant"></div>
-                                <button>-</button>
-                                <span>0</span>
-                                <button>+</button>
+                                <input type="number" id="input-cant" min="0" max="3" class="form-control">
                             </div>
                         </div>
-                        <p class="h3">$ 4.090,50</p>
+                        <p class="h3 mt-2">$ 4.090,50</p>
                         <p>12 cuotas de $ 340,90 sin interés</p>
 
                         <div class="container row d-flex">
@@ -345,24 +370,20 @@
                 </div>
 
                 <div class="row col-lg-12">
-                    <div class="container row d-flex justify-content-around my-5">
-                        <div class="col-4">
-                            <p class="h4 col-10 text-merienda">Descripción del Producto</p>
+                    <div class="container row d-flex justify-content-around mt-5">
+                        <div class="col-5">
+                            <p class="h4 col-12 text-merienda mb-4">Descripción del Producto</p>
     
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium at alias, eum commodi quia, autem
-                                cum deserunt impedit perspiciatis numquam nam molestias, ex voluptates. Maiores sapiente libero quia
-                                officia voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam, nobis repellendus placeat est expedita blanditiis ipsa dolorum voluptas quam, ea architecto deleniti pariatur facilis. Nisi quisquam nemo eveniet unde.</p>
+                            <p>LYF Látex Satinado para interiores fue diseñado para lograr un efecto altamente decorativo. Su exclusiva tecnología Paredes HD ofrece una terminación satinada en alta definición. Con poder antimicótico que permite que la superficie no condense y así, se logra evita la formación de hongos sobre la pared.</p>
+                            <p>Podés entonar el látex con entonadores universales y así lograr otros tonos. Recordá que los colores que obtendrás dependerán del color de lpatex que hayas elegido y el tono de entonador que uses. La proporción que se usa es de hasta 37,5 cm³ de entonador por litro de látex.</p>
                         </div>
-                        <div class="col-4">
-    
-                            <img src="/img/e26a27e906e938118921a0607a40f601-modified 1.jpg" alt="">
-                        </div>
+                        <img src="/img/e26a27e906e938118921a0607a40f601-modified 1.jpg" alt="" class="img-fluid  col-4">
 
                     </div>
                 </div>
 
                 <div class="container row col-lg-12 justify-content-center">
-                    <div class="container row d-flex justify-content-center col-10">
+                    <div class="container row d-flex justify-content-center col-12 px-5 py-3">
                         <p class="h4 text-merienda">Advertencias</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum eveniet id, ad fuga dolorum
                             blanditiis soluta hic error aliquid numquam illo, eligendi vero, quis provident amet dolore ea facilis.
@@ -387,20 +408,20 @@
                 </div>
 
                 <div class="col">
-                    <a href="comunidad.html" class="d-block mt-5 mb-5 text-decoration-none text-black">Comunidad LYF</a>
-                    <a href="" class="d-block mt-5 mb-5 text-decoration-none text-black">Nuestros productos</a>
+                    <a href="comunidad.html" class="d-block mt-5 mb-3 text-decoration-none text-black"><p class="headerlink">Comunidad LYF</p></a>
+                    <a href="" class="d-block mt-3 mb-3 text-decoration-none text-black"><p class="headerlink">Nuestros productos</p></a>
                 </div>
 
                 <div class="col">
                     <p class="mt-5">Contactanos por</p>
-                    <p class="mt-1 mb-1">0800-555-3789</p>
+                    <p class="mt-3 mb-3">0800-555-3789</p>
                     <a href="algo@google.com" class="text-decoration-none text-black mb-5">contactolyf@gmail.com</a>
                 </div>
 
-                <div class="col">
-                    <div class="d-flex justify-content-around m-5">
-                        <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px">
-                        <img src="img/vectores/instagram-svgrepo-com.svg" alt="instagram" width="32px">
+                <div class="col d-flex align-items-center">
+                    <div class="d-flex justify-content-around m-5 align-items-center">
+                        <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px" class="me-5">
+                        <img src="img/vectores/instagram-dePlano.svg" alt="instagram" width="32px">
                     </div>
                 </div>
             </div>

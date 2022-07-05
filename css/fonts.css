@@ -15,15 +15,11 @@
 	font-weight: bold;
 }
 
-
-
 *{
     font-family: 'Nunito', sans-serif;
 	font-weight: 200;
 	font-size: 16px;
 }
-
-
 
 .text-merienda{
 	font-family: 'Merienda' !important;
@@ -39,7 +35,9 @@
 
 .test-font2{
     font-family: 'montBold', cursive;
-	size: 40px;
+	font-size: larger;
+	padding-top: 30px !important;
+	margin-top: 30px;
 }
 .test-font4{
     font-family: 'montRegular', cursive;
@@ -47,14 +45,18 @@
 
 .vinculos{
 	text-decoration: none !important;
-	color: inherit;
+	color: #0769B2 !important;
 }
 
 .vinculos:hover{
 	text-decoration: none !important;
 	font-weight: bold;
-	color: #ff6a00;
+	color: #00AF36 !important;
 	cursor: pointer;
+}
+
+.tituloBrand{
+	font-weight: bold;
 }
 
 

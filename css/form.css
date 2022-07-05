@@ -35,6 +35,7 @@
 
 .button-main span{
   position: relative;
+  color: white;
   z-index: 2;
 }
 

@@ -8,3 +8,10 @@ img.vectores-item{
     height: 1em;
 }
 
+img.background-splat{
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: -1;
+    height: 100%;
+}

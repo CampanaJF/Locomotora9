@@ -20,16 +20,20 @@
 
 .headerlink{
 	text-decoration: none !important;
-	color: inherit;
+	color: inherit !important;
 }
 
 .headerlink:hover{
 	text-decoration: none !important;
-	color: #ff6a00;
-	cursor: pointer;
+	color: #ff6a00 !important;
+	cursor: pointer !important;
 }
 
 .nav-gradiente{
     background: rgb(255,255,255);
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 90%, rgba(255,255,255,0) 100%);
+}
+
+.nav-gradienteB{
+    background-color: white;
 }

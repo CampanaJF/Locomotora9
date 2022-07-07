@@ -42,6 +42,7 @@
 </head>
 
 <body>
+<body class="fondoBody">
     <!-- Modal ingresar -->
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
     aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -238,6 +239,11 @@
                             <li class="d-flex justify-content-center">      
                                     <span class="material-symbols-sharp">groups</span>
                                     <p class=" ms-1">Comunidad</p>   
+                            <li >
+                                <a class="navbar-brand d-flex justify-content-center headerlink" href="comunidad.html">
+                                    <span class="material-symbols-sharp">groups</span>
+                                    <p class=" ms-1">Comunidad</p>
+                                </a>
                             </li>
                         </a>
 
@@ -308,6 +314,7 @@
 
 
                         <div class="item item-colores container row my-2">
+                        <div class="item item-colores container row my-">
                             <div class="container row colores d-flex justify-content-start col-7">
                                 <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
                                 <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
@@ -341,11 +348,13 @@
                                 <a href="#" class="col-lg-1 text-center color-circulo"><i class="fa-solid fa-circle"></i></a>
                             </div>
                             <p class="text-muted">Color seleccionado: Blue</p>
+                            <div class="text-muted">Color seleccionado: Blue</div>
                         </div>
         
 
                         <div class="item tamaño-cantidad d-flex ">
                             <div class="me-5">
+                            <div class="me-3">
                                 <label for="tamaño">Tamaño</label>
                                 <select name="tamaño" id="tamaño" class="form-select">
                                     <option value="1">20L</option>
@@ -357,23 +366,27 @@
                             <div>
                                 <label for="input-cant">Cantidad</label>
                                 <input type="number" id="input-cant" min="0" max="3" class="form-control">
+                                <input type="number" id="input-cant" min="0" max="3" class="form-control" value="1">
                             </div>
                         </div>
                         <p class="h3 mt-2">$ 4.090,50</p>
                         <p>12 cuotas de $ 340,90 sin interés</p>
 
                         <div class="container row d-flex">
+                        <div class="container row d-flex mb-2">
                             <label for="codPostal">Calcular envío</label>
                             <div class="col-5 px-1">
                                 <input type="text" name="codPostal" id="codPostal" placeholder="Tu código postal" class=" form-control">
                             </div>
                             
                             <button class="col-4 btn btn-primary">Calcular</button>
+                            <button type="button" class="button-main btn btn-warning col-4"><span>Calcular</span></button>
 
                         </div>
 
                         <button class="col-4 btn btn-primary mt-2 p-2 mx-1">Agregar al Carrito</button>
         
+                        <button type="button" class="button-main btn btn-warning mx-1 mt-2 p-2 col-5"><span>Agregar al Carrito</span></button>
         
                     </div>
                 </div>

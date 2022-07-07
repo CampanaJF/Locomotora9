@@ -74,6 +74,15 @@
 }
 
 
+.maparin{
+    display: block;
+	margin: auto;
+    margin-bottom: 25px;
+	width:65%;
+	height:450px;
+    padding-top: 25px;
+}
+
 
 /*AZUL #0769B2 !important;*/
 /*VERDE #00AF36 !important;*/

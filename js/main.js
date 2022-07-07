@@ -1,6 +1,9 @@
 $(function () {
     $('#deshacer1').hide();
     $('#deshacer2').hide();
+    $('#mod').css("display", "none");
+    $('#mod2').css("display", "none");
+    $('#eye2').hide();
 
     $('#input1').on('change', function () {
         var valor = this.value;
@@ -88,7 +91,40 @@ $(function () {
 
     });
 
+    $('#eye').on('click', function () {
 
+        $('#2').css("visibility", "visible");
+        $('#22').css("visibility", "visible");
+        $('#222').css("visibility", "visible");
+        $('#2222').css("visibility", "visible");
+        $('#22222').css("visibility", "visible");
+
+        $('#deshacer2').hide();
+
+    });
+
+
+
+    $('#eye').click(function(e) {
+        $('#mod').css('display', 'block');
+        $('#mod2').css('display', 'block');
+          $('#eye').hide();
+          $('#eye2').show();
+   
+       
+    
+      });
+
+      
+    $('#eye2').click(function(e) {
+        $('#mod').css('display', 'none');
+        $('#mod2').css('display', 'none');
+          $('#eye').show();
+          $('#eye2').hide();
+   
+       
+    
+      });
 
 
 

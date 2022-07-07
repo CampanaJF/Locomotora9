@@ -1,0 +1,26 @@
+* {
+  @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+  color: red;
+}
+
+.container2 {
+  width: 1980px;
+  height: 700px;
+
+}
+.container2 .content {
+  width: 1980px;
+  height: 3500px;
+  color: white;
+ 
+}
+.container2 .invert {
+  backdrop-filter: invert(70%);
+  -webkit-backdrop-filter: invert(70%);
+}/*# sourceMappingURL=mod.css.map */
+

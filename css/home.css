@@ -3,6 +3,13 @@
     padding-top: 8.5em;
 }
 
+
+.contenido-principal{
+    background-image: url(/img/manchas/Group0446.png) !important;
+    padding-top:8.5em;   
+}
+
+
 .seccion2{
     background-image: url(../img/vectores/Mancha\ Por\ que.png);
     background-size: contain;
@@ -82,6 +89,8 @@
 	height:450px;
     padding-top: 25px;
 }
+
+
 
 
 /*AZUL #0769B2 !important;*/

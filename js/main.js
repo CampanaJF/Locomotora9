@@ -4,6 +4,8 @@ $(function () {
     $('#mod').css("display", "none");
     $('#mod2').css("display", "none");
     $('#eye2').hide();
+    $('#colorVerde2').hide();
+    $('#colorNaranja3').hide();
 
     $('#input1').on('change', function () {
         var valor = this.value;
@@ -139,6 +141,36 @@ $(function () {
         $('#total').text("6000");
     
 });
+
+
+$('#verde').on('click', function () {
+
+    $('#colorVerde2').show();
+    $('#colorLila1').hide();
+    $('#colorNaranja3').hide();
+
+});
+
+
+$('#lila').on('click', function () {
+
+    $('#colorVerde2').hide();
+    $('#colorLila1').show();
+    $('#colorNaranja3').hide();
+
+});
+
+$('#naranja').on('click', function () {
+
+    $('#colorVerde2').hide();
+    $('#colorLila1').hide();
+    $('#colorNaranja3').show();
+
+});
+
+
+
+
 
 
 

@@ -185,7 +185,7 @@ body {
 }
 
 .contenedor-btn .btn-abrir-formulario.active {
-	transform: rotate(45deg);
+	transform: rotate(180deg);
 }
 
 /* ---------- Formulario Tarjeta ----------*/

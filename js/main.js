@@ -136,7 +136,7 @@ $(function () {
     $('#input1').on('change', function () {
  
   
-        $('#total').text("4000");
+        $('#total').text("6000");
     
 });
 

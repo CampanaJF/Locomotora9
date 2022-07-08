@@ -127,5 +127,19 @@ $(function () {
       });
 
 
+      $('#input2').on('change', function () {
+ 
+  
+            $('#total').text("3000");
+        
+    });
+    $('#input1').on('change', function () {
+ 
+  
+        $('#total').text("4000");
+    
+});
+
+
 
 });

@@ -29,3 +29,21 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6
 .nav-gradienteB{
     background-color: white;
 }
+
+
+.footerFont{
+	font-size: 12px !important;
+}
+
+.footeralign{
+	padding-left: 18em !important;
+	margin-top:2em !important;
+}
+
+.marginFooterTxt{
+	margin-left: 4.7rem;
+}
+
+.marginCol2{
+	margin-right: 2rem;
+}

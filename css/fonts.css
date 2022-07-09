@@ -18,7 +18,7 @@
 *{
     font-family: 'Nunito', sans-serif;
 	font-weight: 500;
-	font-size: 16px;
+	
 }
 
 .text-merienda{
@@ -43,7 +43,7 @@
 
 .test-font2{
     font-family: 'montBold', cursive;
-	font-size: 1.7em;
+	font-size: 1.4em;
 	padding-top: 30px !important;
 	margin-top: 30px;
 }

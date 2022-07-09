@@ -90,7 +90,9 @@
     padding-top: 25px;
 }
 
-
+.shadowself{
+    box-shadow: 0 0.5rem 1rem rgb(4, 10, 3,.5) !important;
+}
 
 
 /*AZUL #0769B2 !important;*/

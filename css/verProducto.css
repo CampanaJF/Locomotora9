@@ -13,7 +13,7 @@ img.background-splat{
     top: auto;
     left: auto;
     z-index: -1;
-    height: 100%;
+    height: 80%;
 }
 
 .colors-items:hover{
@@ -34,4 +34,9 @@ img.background-splat{
 
 .fondo-naranja{
     background-color: #FF6A3D;
+}
+
+.other-colors{
+    width: 32px;
+    height: 32px;
 }

@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/comunidad.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -220,85 +221,81 @@
 
 
   <header class="shadow">
-        <div id="top"></div>
-        <nav class="navbar fixed-top nav-gradiente scrolling-navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand d-flex" href="index.html#top">
-                    <img src="img/vectores/WhatsApp_Image_2021-11-08_at_23.29 5.png" class="ms-5" width="100px" alt="">
-                    <div class="d-flex align-items-center">
-                        <h3 class="p-0 m-0 pesoletra test-font2">LYF</h3>
-                    </div>
+    <div id="top"></div>
+    <nav class="navbar fixed-top nav-gradiente scrolling-navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="index.html#top">
+          <img src="img/vectores/WhatsApp_Image_2021-11-08_at_23.29 5.png" class="ms-5" width="100px" alt="">
+          <div class="d-flex align-items-center">
+            <h3 class="p-0 m-0 pesoletra test-font2">LYF</h3>
+          </div>
+        </a>
+
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav pe-1">
 
 
-                </a>
+              <a class="headerlink pe-3" href="index.html#comunidad">
+                <li class="d-flex justify-content-center">
+                  <span class="material-symbols-sharp">groups</span>
+                  <p class=" ms-1">Comunidad</p>
+                </li>
+              </a>
 
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+              <a class="headerlink pe-3" href="index.html#categorias">
+                <li class="d-flex justify-content-center">
+                  <span class="material-symbols-sharp">palette</span>
+                  <p class=" ms-1">Productos</p>
+                </li>
+              </a>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav pe-1">
+              <a class="headerlink pe-3" href="miCarrito.html">
+                <li class="d-flex justify-content-center">
+                  <span class="material-symbols-sharp">shopping_cart</span>
+                  <p class=" ms-1">Carrito</p>
+                </li>
+              </a>
 
+              <a class="headerlink pe-3" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                <li class="d-flex justify-content-center">
+                  <span class="material-symbols-sharp">person</span>
+                  <p class=" ms-1">Ingresar</p>
+                </li>
+              </a>
 
-                            <a class="headerlink pe-3" href="index.html#comunidad">
-                                <li class="d-flex justify-content-center">
-                                    <span class="material-symbols-sharp">groups</span>
-                                    <p class=" ms-1">Comunidad</p>
-                                </li>
-                            </a>
-
-                            <a class="headerlink pe-3" href="index.html#categorias">
-                                <li class="d-flex justify-content-center">
-                                    <span class="material-symbols-sharp">palette</span>
-                                    <p class=" ms-1">Productos</p>
-                                </li>
-                            </a>
-
-                            <a class="headerlink pe-3" href="miCarrito.html">
-                                <li class="d-flex justify-content-center">
-                                    <span class="material-symbols-sharp">shopping_cart</span>
-                                    <p class=" ms-1">Carrito</p>
-                                </li>
-                            </a>
-
-                            <a class="headerlink pe-3" href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalToggle">
-                                <li class="d-flex justify-content-center">
-                                    <span class="material-symbols-sharp">person</span>
-                                    <p class=" ms-1">Ingresar</p>
-                                </li>
-                            </a>
-
-                            <a class="headerlink pe-3" href="#" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalToggle2">
-                                <li class="d-flex justify-content-center">
-                                    <span class="material-symbols-sharp">edit_document</span>
-                                    <p class=" ms-1">Registrarse</p>
-                                </li>
-                            </a>
+              <a class="headerlink pe-3" href="#" data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">
+                <li class="d-flex justify-content-center">
+                  <span class="material-symbols-sharp">edit_document</span>
+                  <p class=" ms-1">Registrarse</p>
+                </li>
+              </a>
 
 
 
-                        </ul>
-                        </li>
+            </ul>
+            </li>
 
-                        </ul>
+            </ul>
 
 
-                    </div>
-                </div>
-            </div>
-        </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-    </header>
+  </header>
   <main>
     <h1 class="text-center  text-merienda">¡Unite a la <span class="text-grande text-merienda negrita">Comunidad
         LYF!</span></h1>
 
-    <div class="container-fluid mt-5 mb-5 ">
+    <div class="container-fluid mt-5 ">
       <div class="row justify-content-center">
         <div class=" col-auto subtitulo">
           <h1 class="text-merienda ">Inscribite</h1>
@@ -311,119 +308,122 @@
         <div class="col-auto"><img src="img/Group 101.png" alt="Compost" class="img-fluid tamano-img "></div>
       </div>
     </div>
-    <div class="container-fluid mt-5 mb-5">
-      <div class="row justify-content-center">
-        <div class=" col-auto"><img src="img/Group 102.png" alt="Compost" class="img-fluid tamano-img "></div>
-        <div class=" col-auto  mt-5">
-          <h1 class="text-merienda mt-5">Contactanos</h1>
-          <p>Además en el caso de que tengas <span class="negrita">baldes de pintura</span><br>
-            te pedimos que tambien te contactes con nosotros para <br> brindarte la lista de lugares donde estamos
-            recibiendo <br>
-            los mismos. </p>
-        </div>
 
-      </div>
-    </div>
+    <section data-aos="zoom-in-right">
 
-
-
-    <h2 class="text-center  text-merienda m-5">¡Entre todos <span
-        class="text-grande text-merienda negrita">ayudamos</span> a construir un <span
-        class="text-grande text-merienda negrita">planeta sostenible!</span></h2>
-
-    <div class="">
-      <form action="" class="needs-validation " novalidate action="/">
-        <div class="container py-5 ">
-          <div class="row justify-content-center ">
-            <div class="col-auto">
-              <div class="form-group mb-3 col-lg-12 ">
-                <label for="formGroupExampleInput" class="form-label">Nombre</label>
-                <input type="text" class="form-control  " id="formGroupExampleInput" placeholder="Introduce tu nombre"
-                  required size="36">
-                <div class="invalid-feedback">
-                  Ingrese su nombre, dato requerido!
-                </div>
-              </div>
-            </div>
+      <div class="container-fluid mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class=" col-auto"><img src="img/Group 102.png" alt="Compost" class="img-fluid tamano-img "></div>
+          <div class=" col-auto  mt-5">
+            <h1 class="text-merienda mt-5">Contactanos</h1>
+            <p>Además en el caso de que tengas <span class="negrita">baldes de pintura</span><br>
+              te pedimos que tambien te contactes con nosotros para <br> brindarte la lista de lugares donde estamos
+              recibiendo <br>
+              los mismos. </p>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-auto">
-              <div class="form-group  mb-3 col-lg-12">
-                <div>
-                  <label for="correoIn" class=" form-label">Correo</label>
-                  <input type="email" class="form-control" placeholder="Introduce tu correo" id="correoIn" size="36"
-                    required>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section data-aos="zoom-in-left">
+      <h2 class="text-center  text-merienda m-5">¡Entre todos <span
+          class="text-grande text-merienda negrita">ayudamos</span> a construir un <span
+          class="text-grande text-merienda negrita">planeta sostenible!</span></h2>
+
+      <div class="">
+        <form action="" class="needs-validation " novalidate action="/">
+          <div class="container py-5 ">
+            <div class="row justify-content-center ">
+              <div class="col-auto">
+                <div class="form-group mb-3 col-lg-12 ">
+                  <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                  <input type="text" class="form-control  " id="formGroupExampleInput" placeholder="Introduce tu nombre"
+                    required size="36">
                   <div class="invalid-feedback">
-                    Por favor ingrese una dirección válida.
+                    Ingrese su nombre, dato requerido!
                   </div>
                 </div>
               </div>
             </div>
-            <div class="d-flex justify-content-center">
-              <button type="submit" class="btn btn-warning m-5 button-main"><span>Quiero unirme</span></button>
-            </div>
-      </form>
-    </div>
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <div class="form-group  mb-3 col-lg-12">
+                  <div>
+                    <label for="correoIn" class=" form-label">Correo</label>
+                    <input type="email" class="form-control" placeholder="Introduce tu correo" id="correoIn" size="36"
+                      required>
+                    <div class="invalid-feedback">
+                      Por favor ingrese una dirección válida.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-warning m-5 button-main"><span>Quiero unirme</span></button>
+              </div>
+        </form>
+      </div>
+    </section>
+
+    <section data-aos="zoom-in-right">
+      <iframe id="mapa" class="maparin rounded-5"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26250.34376029551!2d-58.54739578884276!3d-34.67255465662461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sNational%20University%20of%20La%20Matanza!5e0!3m2!1sen!2sar!4v1657202512356!5m2!1sen!2sar"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section data-aos="zoom-in-left">
+      <div class="container-fluid mt-1 mb-5 ">
+        <div class="row justify-content-center">
+          <div class=" col-auto  mt-5">
+            <h1 class="text-merienda mt-5">Nos podes encontrar en</h1>
+            <p><br>
+              <span class="negrita">Direccion:</span> Florencio Varela 1903, B1754 San Justo<br><span
+                class="padding-text">Provincia de Buenos Aires.</span><br>
+              <span class="negrita">Telefono:</span> 0800-555-3789 <br>
+              <span class=" ps-4 negrita">Email:</span> <span>contactolyf@gmail.com</span><br><br>
 
 
-    <iframe id="mapa" class="maparin rounded-5"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26250.34376029551!2d-58.54739578884276!3d-34.67255465662461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sNational%20University%20of%20La%20Matanza!5e0!3m2!1sen!2sar!4v1657202512356!5m2!1sen!2sar"
-      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <div class="container-fluid mt-5 mb-5 ">
-      <div class="row justify-content-center">
-        <div class=" col-auto  mt-5">
-          <h1 class="text-merienda mt-5">Nos podes encontrar en</h1>
-          <p><br>
-            <span class="negrita">Direccion:</span> Florencio Varela 1903, B1754 San Justo<br><span
-              class="padding-text">Provincia de Buenos Aires.</span><br>
-            <span class="negrita">Telefono:</span> 0800-555-3789 <br>
-            <span class=" ps-4 negrita">Email:</span> <span>contactolyf@gmail.com</span><br><br>
-
-            <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="40px" class="padding-icons">
-            <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px" class="me-5">
-            <img src="img/vectores/instagram-dePlano.svg" alt="instagram" width="32px">
 
 
-
+          </div>
         </div>
       </div>
-    </div>
-
+    </section>
   </main>
 
   <footer>
 
     <div class=" footerFont container mt-5">
 
-        <div class="row d-flex justify-content-around">
-            <div class="col">
-                <a class="navbar-brand d-flex" href="#top">
-                    <img src="img/vectores/logo 5.png" alt="LYF" width="96px" class="ms-5 mt-3 me-5 mb-5">
-                </a>
+      <div class="row d-flex justify-content-around">
+        <div class="col">
+          <a class="navbar-brand d-flex" href="#top">
+            <img src="img/vectores/logo 5.png" alt="LYF" width="96px" class="ms-5 mt-3 me-5 mb-5">
+          </a>
         </div>
 
-        
 
-            <div class="col mt-2">
-              <p class="h5 pb-1">Contacto</p>
-                <p class=" mb-3">Telefono: 0800-555-3789</p>
-                <p class=" mb-3">Email: contactolyf@gmail.com</p>
-                <p class="mb-3">Direccion: Florencio Varela 1903 San Justo</p>
-            </div>
 
-            <div class="col d-flex align-items-center">
-                <div class="d-flex justify-content-around ms-5 me-5 mb-5 mt-2 align-items-center">
-                    <img src="img/vectores/twitter-svgrepo-com.svg" alt="instagram" width="26px" class="me-2">
-                    <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px" class="me-1">
-                    <img src="img/vectores/instagram-dePlano.svg" alt="instagram" width="32px" class="me-3">
-                </div>
-            </div>
+        <div class="col mt-2">
+          <p class="h5 pb-1">Contacto</p>
+          <p class=" mb-3">Telefono: 0800-555-3789</p>
+          <p class=" mb-3">Email: contactolyf@gmail.com</p>
+          <p class="mb-3">Direccion: Florencio Varela 1903 San Justo</p>
         </div>
+
+        <div class="col d-flex align-items-center">
+          <div class="d-flex justify-content-around ms-5 me-5 mb-5 mt-2 align-items-center">
+            <img src="img/vectores/twitter-svgrepo-com.svg" alt="instagram" width="26px" class="me-2">
+            <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px" class="me-1">
+            <img src="img/vectores/instagram-dePlano.svg" alt="instagram" width="32px" class="me-3">
+          </div>
+        </div>
+      </div>
     </div>
 
-</footer>
+  </footer>
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -434,6 +434,11 @@
 
 
   <script src="js/formulario.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+  </script>
 
 </body>
 

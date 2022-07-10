@@ -47,10 +47,3 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6
 .marginCol2{
 	margin-right: 2rem;
 }
-.marcador{
-    color: #00AF36;
-    text-decoration: underline solid 4px #00AF36 ;
-}
-.iconomark{
-    color: #00AF36;
-}

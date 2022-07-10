@@ -12,8 +12,8 @@
  
 }
 .container2 .invert {
-  backdrop-filter: invert(70%);
-  -webkit-backdrop-filter: invert(70%);
+  backdrop-filter: sepia(70%);
+  -webkit-backdrop-filter: sepia(70%);
 }/*# sourceMappingURL=mod.css.map */
 
 
@@ -32,8 +32,8 @@
  
 }
 .container3 .invert {
-  backdrop-filter: invert(70%);
-  -webkit-backdrop-filter: invert(70%);
+  backdrop-filter: sepia(70%);
+  -webkit-backdrop-filter: sepia(70%);
 }/*# sourceMappingURL=mod.css.map */
 
 
@@ -51,8 +51,8 @@
  
 }
 .container4 .invert {
-  backdrop-filter: invert(70%);
-  -webkit-backdrop-filter: invert(70%);
+  backdrop-filter: sepia(70%);
+  -webkit-backdrop-filter: sepia(70%);
 }/*# sourceMappingURL=mod.css.map */
 
 
@@ -71,8 +71,8 @@
  
 }
 .container5 .invert {
-  backdrop-filter: invert(70%);
-  -webkit-backdrop-filter: invert(70%);
+  backdrop-filter: sepia(70%);
+  -webkit-backdrop-filter: sepia(70%);
 }/*# sourceMappingURL=mod.css.map */
 
 

@@ -21,19 +21,64 @@ img.background-splat{
 }
 
 .advertencia{
-    background-color: #FF6A3D;
+    background-color: #FDC280;
     border-radius: .5em;
     transition: .3s;
 }
 
 .advertencia:hover{
     color: black !important;
-    background-color: #ed6339;
+    background-color: #FDC280;
     color: #ffffff !important;
 }
 
+.button-main2{
+    color: rgb(0, 0, 0) !important;
+    display: block;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #FED3A4!important;
+    border: 2px solid #FED3A4 !important;
+    color:#FED3A4;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+   
+  }
+  
+  .button-main2 span{
+    position: relative;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+  }
+  
+  .button-main2:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #FDC280 !important;
+    transition: all .35s;
+  }
+  
+  .button-main2:hover{
+    border: 2px solid #FDC280 !important;
+    color: #fff !important;
+  }
+  
+  .button-main2:hover:after{
+    width: 100%;
+  }
+  
+
+
+
 .fondo-naranja{
-    background-color: #FF6A3D;
+    background-color: #FDC280;
 }
 
 .other-colors{

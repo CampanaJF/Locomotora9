@@ -148,6 +148,8 @@ $('#verde').on('click', function () {
     $('#colorVerde2').show();
     $('#colorLila1').hide();
     $('#colorNaranja3').hide();
+    $('#colorSeleccionado').text('Verde Pastel');
+    $('#hexColor').text('#78B159');
 
 });
 
@@ -157,6 +159,8 @@ $('#lila').on('click', function () {
     $('#colorVerde2').hide();
     $('#colorLila1').show();
     $('#colorNaranja3').hide();
+    $('#colorSeleccionado').text('Lila');
+    $('#hexColor').text('#AA8ED6');
 
 });
 
@@ -165,6 +169,8 @@ $('#naranja').on('click', function () {
     $('#colorVerde2').hide();
     $('#colorLila1').hide();
     $('#colorNaranja3').show();
+    $('#colorSeleccionado').text('Naranja Pastel');
+    $('#hexColor').text('#FF6A3D');
 
 });
 

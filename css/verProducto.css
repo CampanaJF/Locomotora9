@@ -15,3 +15,23 @@ img.background-splat{
     z-index: -1;
     height: 100%;
 }
+
+.colors-items:hover{
+    border: 2px solid #0769B2;
+}
+
+.advertencia{
+    background-color: #FF6A3D;
+    border-radius: .5em;
+    transition: .3s;
+}
+
+.advertencia:hover{
+    color: black !important;
+    background-color: #cb5632;
+    color: #ffffff !important;
+}
+
+.fondo-naranja{
+    background-color: #FF6A3D;
+}

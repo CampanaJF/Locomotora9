@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYF</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="css/verProducto.css">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/imag.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/mod.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <style>
+        .material-symbols-sharp {
+            font-variation-settings:
+                'FILL' 1,
+                'wght' 300,
+                'GRAD' 0,
+                'opsz' 48
+        }
+    </style>
+
+</head>
+
+<body class="fondoBody">
+    <!-- Modal ingresar -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="py-5 modal-body">
+
+                    <div class=" d-flex justify-content-center">
+                        <img class="logoForm" src="img/vectores/LogoColorLYF.png">
+                    </div>
+                    <br>
+                    <br>
+
+
+                    <h3 class="text-center">¡Que Bueno Verte!</h3>
+                    <br>
+                    <p class="text-center">Iniciar Sesion Con...</p>
+
+
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+
+                            <div class="col-md-auto">
+                                <a href=""> <img class="media" src="img/vectores/facebook-svgrepo-com.svg"
+                                        alt="Facebook"> </a>
+                            </div>
+
+                            <div class="col-md-auto">
+                                <a href=""> <img class="media rounded-1" src="img/vectores/google-negro.svg"
+                                        alt="Google"> </a>
+                            </div>
+
+                            <div class="col-md-auto">
+                                <a href=""> <img class="media" src="img/vectores/twitter-svgrepo-com.svg" alt="Twitter">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <form class="px-3 needs-validation" novalidate action="/">
+
+                        <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo</label>
+                            <input type="email" class="form-control" placeholder="ejemplo@correo.com" required
+                                id="correoIn">
+                            <div class="invalid-feedback">
+                                Ingrese su Direccion de Correo
+                            </div>
+                        </div>
+
+                        <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" placeholder="*******" required id="contraIn">
+                            <div class="invalid-feedback">
+                                Ingrese su Contraseña
+                            </div>
+                        </div>
+
+                        <div class="pt-3 d-grid gap-2 col-5 mx-auto">
+                            <button type="submit" class="text-center button-main btn btn-primary"><span>Iniciar
+                                    Sesion</span></button>
+                        </div>
+
+                    </form>
+
+                    <div class="pt-5">
+                        <a class="text-center vinculos" href="">
+                            <p class="vinculos">¿Olvidaste tu Contraseña?</p>
+                        </a>
+                        <a class="text-center vinculos" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">
+                            <p class="vinculos">¿No Estas Registrado?</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal registrarse -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="py-5 modal-body">
+
+                    <div class=" d-flex justify-content-center">
+                        <img class="logoForm" src="img/vectores/LogoColorLYF.png">
+                    </div>
+                    <br>
+                    <br>
+
+                    <h5 class="text-center">¡Ingresa tus Datos Para Registrarte!</h5>
+                    <br>
+
+                    <br>
+
+                    <form class="px-3 needs-validation" action="/" novalidate>
+                        <div class="w-75 d-grid gap-2 col-5 mx-auto mb-3 row g-3">
+
+                            <div class="d-flex justify-content-center">
+
+                                <div class="formm2">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Juan" id="correoIn">
+                                </div>
+
+                                <div class="formm1">
+                                </div>
+
+                                <div class="formm2">
+                                    <label for="apellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" placeholder="Perez" id="correoIn">
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <label for="correoIn" class=" form-label">Correo*</label>
+                                <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correoIn"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Por Favor Ingrese una Direccion Valida.
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="correoIn2" class="form-label">Repita su Correo*</label>
+                                <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correoIn2"
+                                    required>
+                                <div class="invalid-feedback">
+                                    El Correo es Diferente al Ingresado.
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="contraIn" class="form-label">Contraseña*</label>
+                                <input type="password" class="form-control" placeholder="*******" id="contraIn"
+                                    required>
+                                <div class="form-text">La Contraseña con almenos 12 Caracteres, una Mayuscula y un
+                                    Numero</div>
+                                <div class="invalid-feedback">
+                                    Por Favor Ingrese una Contraseña con almenos 12 Caracteres, una Mayuscula y un
+                                    Numero.
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="contraIn2" class="form-label">Repita su Contraseña*</label>
+                                <input type="password" class="form-control" placeholder="*******" id="contraIn2"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Las Contraseñas son Diferentes.
+                                </div>
+                                <br>
+                                <div class="form-text">*: Campo Obligatorio</div>
+                            </div>
+
+                        </div>
+
+                        <div class="pt-3 d-grid gap-2 col-6 mx-auto">
+                            <button type="submit"
+                                class="text-center button-main btn btn-primary"><span>Registrarse</span></button>
+                        </div>
+
+                    </form>
+
+                    <div class="pt-5">
+                        <a class="text-center vinculos" href="">
+                            <p class="vinculos">¿Ya Estas Registrado?</p>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <header class="shadow">
+        <div id="top"></div>
+        <nav class="navbar fixed-top nav-gradiente scrolling-navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex" href="index.html#top">
+                    <img src="img/vectores/WhatsApp_Image_2021-11-08_at_23.29 5.png" class="ms-5" width="100px" alt="">
+                    <div class="d-flex align-items-center">
+                        <h3 class="p-0 m-0 pesoletra test-font2">LYF</h3>
+                    </div>
+
+
+                </a>
+
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav pe-1">
+
+
+                            <a class="headerlink pe-3" href="comunidad.html">
+                                <li class="d-flex justify-content-center">
+                                    <span class="material-symbols-sharp">groups</span>
+                                    <p class=" ms-1">Comunidad</p>
+                                </li>
+                            </a>
+
+                            <a class="headerlinkActivated pe-3" href="index.html#categorias">
+                                <li class="d-flex justify-content-center">
+                                    <span class="material-symbols-sharp ">palette</span>
+                                    <p class=" ms-1 ">Productos</p>
+                                </li>
+                            </a>
+
+                            <a class="headerlink pe-3" href="miCarrito.html">
+                                <li class="d-flex justify-content-center">
+                                    <span class="material-symbols-sharp">shopping_cart</span>
+                                    <p class=" ms-1">Carrito</p>
+                                </li>
+                            </a>
+
+                            <a class="headerlink pe-3" href="#" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalToggle">
+                                <li class="d-flex justify-content-center">
+                                    <span class="material-symbols-sharp">person</span>
+                                    <p class=" ms-1">Ingresar</p>
+                                </li>
+                            </a>
+
+                            <a class="headerlink pe-3" href="#" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalToggle2">
+                                <li class="d-flex justify-content-center">
+                                    <span class="material-symbols-sharp">edit_document</span>
+                                    <p class=" ms-1">Registrarse</p>
+                                </li>
+                            </a>
+
+
+
+                        </ul>
+                        </li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Modo daltonico -->
+    <div class="d-flex justify-content-end me-1 p-0 m-0">
+        <p class="d-flex align-middle  me-3 p-0 m-0">Modo daltónico</p>
+
+    </div>
+    <div class="d-flex justify-content-end">
+
+        <img src="img/vectores/eye-svgrepo-com.svg" width="32" alt="modo_daltonico" class="me-5 p-0" id="eye">
+        <img src="img/vectores/eye2.svg" width="32" alt="modo_daltonico2" class="me-5 p-0" id="eye2">
+
+    </div>
+
+    <main data-aos="zoom-in">
+        <div class="container4 ms-3" id="mod2">
+            <div class="content invert" id="mod">
+            </div>
+
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+
+                <div class="row col-lg-12">
+                    <div class="col-lg-7 d-flex justify-content-center align-items-center position-relative">
+                        <img src="img/Balde_exterior.png" height="60%" alt="">
+                        <img src="img/vectores/path2754.png" alt="" class="background-splat" id="colorLila1">
+
+                        <img src="img/vectores/path968.png" alt="" class="background-splat" id="colorVerde2">
+                        <img src="img/vectores/path1964.png" alt="" class="background-splat" id="colorNaranja3">
+                    </div>
+
+                    <div class="col-lg-5 row">
+                        <!--descripcion y opciones producto-->
+
+                        <p class="h3 text-merienda">Látex Satinado Exterior</p>
+
+                        <div class="item item-resumen mb-2">
+                            <div> <img src="/img/vectores/Group 97.png" alt="" class="vectores-item"> <span>Color con un
+                                    leve brillo</span> </div>
+                            <div> <img src="/img/vectores/Group2.png" alt="" class="vectores-item"> <span>Secado
+                                    rápido</span> </div>
+                            <div> <img src="/img/vectores/Group.png" alt="" class="vectores-item"> <span>Variedad de
+                                    Colores</span></div>
+                        </div>
+
+
+
+                        <div class="item item-colores container row">
+                            <div class="container row d-flex justify-content-start">
+                                <div class="col-1 m-1" id="verde">
+                                    <img src="img/vectores/green-square-svgrepo-com.svg" alt="verde" id="verde"
+                                        width="32" class="img-fliud rounded-circle colors-items">
+                                </div>
+                                <div class="col-1 m-1" id="lila">
+                                    <img src="img/vectores/purple-circle-svgrepo-com.svg" alt="lila" id="lila"
+                                        width="32" class="img-fliud rounded-circle colors-items">
+                                </div>
+                                <div class="col-1 m-1" id="naranja">
+                                    <img src="img/vectores/orange-circle-svgrepo-com.svg" alt="verde" id="naranja"
+                                        width="32" class="img-fliud rounded-circle colors-items">
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(43, 43, 226);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(38, 38, 184);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(28, 28, 124);"></div>
+                                </div>
+
+
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(44, 213, 131);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(31, 150, 93);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(22, 105, 65);"></div>
+                                </div>
+
+
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(228, 48, 48);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(182, 37, 37);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(118, 23, 23);"></div>
+                                </div>
+
+
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(196, 38, 196);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(118, 23, 118);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(80, 15, 80);"></div>
+                                </div>
+
+
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(26, 26, 26);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(192, 192, 192);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors"
+                                        style="background-color: rgb(227, 227, 227);"></div>
+                                </div>
+                                <div class="col-1 m-1">
+                                    <div class="rounded-circle colors-items other-colors text-center plus-colors">
+                                        <span>+</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p>
+                                Color seleccionado:
+                                <span class="negrita" id="colorSeleccionado">Lila</span>
+                            </p>
+                            <p>
+                                Hex:
+                                <span class="negrita" id="hexColor">#AA8ED6</span>
+                            </p>
+                        </div>
+
+
+                        <div class="item tamaño-cantidad d-flex ">
+                            <div class="me-3">
+                                <label for="tamaño">Cantidad de litros</label>
+                                <select name="tamaño" id="tamaño" class="form-select">
+                                    <option value="1">5L</option>
+                                    <option value="1">10L</option>
+                                    <option value="1">15L</option>
+                                    <option value="1">20L</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="input-cant">Cantidad</label>
+                                <input type="number" id="input-cant" min="0" max="3" class="form-control" value="1">
+                            </div>
+                        </div>
+                        <p class="h3 mt-2">$ 4.090,50</p>
+                        <p>12 cuotas de $ 340,90 sin interés</p>
+
+
+
+                        <a type="button" href="miCarrito.html"
+                            class="button-main btn btn-warning mx-1 mt-2 p-2 col-6"><span>Agregar al Carrito</span></a>
+
+                    </div>
+                </div>
+
+                <div class="container row col-lg-12">
+                    <div class="container row d-flex justify-content-around mt-5">
+                        <div class="col-8">
+                            <p class="h4 col-12 text-merienda mb-4">Descripción del Producto</p>
+
+                            <p>LYF Látex Satinado para exteriores fue diseñado para lograr un efecto altamente
+                                resistente a las condiciones climatológicas. Su exclusiva tecnología Paredes HD ofrece una terminación satinada en alta
+                                definición. Con poder antimicótico que permite que la superficie no condense y así, se
+                                logra evita la formación de hongos sobre la pared.</p>
+                            <p>Podés entonar el látex con entonadores universales y así lograr otros tonos. Recordá que
+                                los colores que obtendrás dependerán del color de latex que hayas elegido y el tono de
+                                entonador que uses. La proporción que se usa es de hasta 37,5 cm³ de entonador por litro
+                                de látex.</p>
+                        </div>
+                        <img src="img/fotoPuerta.jpg" alt="a" class="img-fluid col-4">
+
+                    </div>
+                </div>
+                <div class="advertencia-block">
+                    <p class="">
+                        <a class="border advertencia p-2 text-decoration-none h4 text-merienda collapsed"
+                            data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            Advertencias
+                        </a>
+                    </p>
+                    <div class="collapse hide" id="collapseExample" >
+                        <div class="card card-body fondo-naranja">
+                            Mantener fuera del alcance de niños. Mantener el recipiente bien cerrado, en forma vertical
+                            y fuera del alcance de animales. No ingerir. Evitar el contacto con la piel, los ojos y la
+                            ropa. No arrojar el envase en incineradores o fuego. No arrojar la pintura en drenajes,
+                            suelo o cursos de agua. Trabajar en ambientes ventilados (puertas y ventanas abiertas). Para
+                            la aplicación a soplete usar máscara apropiada. Utilizar protección ocular y mascarilla en
+                            el caso de tener que lijar. Se recomienda usar lijas al agua húmedas.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <div class=" footerFont container mt-5">
+
+            <div class="row d-flex justify-content-around">
+                <div class="col">
+                    <a class="navbar-brand d-flex" href="#top">
+                        <img src="img/vectores/logo 5.png" alt="LYF" width="96px" class="ms-5 mt-3 me-5 mb-5">
+                    </a>
+                </div>
+
+
+
+                <div class="col mt-2">
+                    <p class="h5 pb-1">Contacto</p>
+                    <p class=" mb-3">Telefono: 0800-555-3789</p>
+                    <p class=" mb-3">Email: contactolyf@gmail.com</p>
+                    <p class="mb-3">Direccion: Florencio Varela 1903 San Justo</p>
+                </div>
+
+                <div class="col d-flex align-items-center">
+                    <div class="d-flex justify-content-around ms-5 me-5 mb-5 mt-2 align-items-center">
+                        <img src="img/vectores/twitter-svgrepo-com.svg" alt="instagram" width="26px" class="me-2">
+                        <img src="img/vectores/pinterest-svgrepo-com.svg" alt="pinterest" width="32px" class="me-1">
+                        <img src="img/vectores/instagram-dePlano.svg" alt="instagram" width="32px" class="me-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+
+</body>
+
+</html>

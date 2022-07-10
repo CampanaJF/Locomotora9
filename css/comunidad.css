@@ -7,6 +7,14 @@
   width: 300px;
   height: 200px;
 }
+.formularioStyle{
+    color: #0769b2 !important;
+   
+}
+.formularioStyle:hover{
+    color: #00AF36 !important;
+  
+}
 .tamano-img{
     width:520px;
     position: relative;

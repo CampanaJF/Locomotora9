@@ -16,3 +16,64 @@
   -webkit-backdrop-filter: invert(70%);
 }/*# sourceMappingURL=mod.css.map */
 
+
+
+.container3 {
+  width: 1850px;
+  height: 700px;
+  position: absolute;
+  z-index: 10;
+
+}
+.container3 .content {
+  width: 1850px;
+  height: 1000px;
+  color: white;
+ 
+}
+.container3 .invert {
+  backdrop-filter: invert(70%);
+  -webkit-backdrop-filter: invert(70%);
+}/*# sourceMappingURL=mod.css.map */
+
+
+.container4 {
+  width: 1850px;
+  height: 700px;
+  position: absolute;
+  z-index: 10;
+
+}
+.container4 .content {
+  width: 1850px;
+  height: 1200px;
+  color: white;
+ 
+}
+.container4 .invert {
+  backdrop-filter: invert(70%);
+  -webkit-backdrop-filter: invert(70%);
+}/*# sourceMappingURL=mod.css.map */
+
+
+
+.container5 {
+  width: 1850px;
+  height: 700px;
+  position: absolute;
+  z-index: 10;
+
+}
+.container5 .content {
+  width: 1850px;
+  height: 2400px;
+  color: white;
+ 
+}
+.container5 .invert {
+  backdrop-filter: invert(70%);
+  -webkit-backdrop-filter: invert(70%);
+}/*# sourceMappingURL=mod.css.map */
+
+
+

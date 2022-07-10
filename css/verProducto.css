@@ -40,3 +40,17 @@ img.background-splat{
     width: 32px;
     height: 32px;
 }
+
+.plus-colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:.05em solid rgb(38, 38, 38);
+    font-size: 1.5em;
+    transition: .2s;
+}
+
+.plus-colors:hover{
+    font-size: 1.9em;
+    border: .07em solid rgb(38, 38, 38);
+}
